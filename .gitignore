@@ -1,0 +1,13 @@
+# Sub-repositories managed independently
+my-kit/
+clients/
+
+# Studio root safety filter
+admin/**
+knowledge/**
+clients/**/source-files/**
+clients/**/ops/**/*.key
+clients/**/ops/**/*.pem
+*.env*
+!*.env.example
+
